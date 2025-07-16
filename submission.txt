@@ -1,0 +1,23 @@
+# konfigurasi database
+- ubah kredensial database di file 'config/google-sheets-api.json sesuai environment lokal anda, contoh: 
+{
+       "username": "postgres",
+       "password": "produk123",
+       "host": "localhost",
+       "database": "perusahaandb"
+     }
+
+# menjalankan skrip
+- gunakan perintah berikut untuk menjalankan file main.py : 
+python main.py
+
+# menjalankan unit test
+- gunakan perintah berikut untuk menjalankan file test_main.py: 
+python test_main.py
+
+# menjalankan test coverage di terminal
+- gunakan perintah berikut untuk menjalankan test coverage pada folder tests
+coverage run -m pytest tests
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/16aaPDh9HGjpjHgt4nQwVdGLT8qvIxCMILuQpL6pS6d4/edit?usp=sharing
